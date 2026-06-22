@@ -293,7 +293,7 @@
             transition: background 0.4s;
         }
         .evo-box:hover { background: var(--white); }
-        .evo-box.new { background: var(--ink); border-left: 1px solid var(--border); }
+        .evo-box.new { background: #f0f0f0; border-left: 1px solid var(--border); }
         .evo-box.old { border-right: 1px solid var(--border); }
         .evo-label {
             font-size: 0.65rem;
@@ -306,7 +306,7 @@
         .evo-box.new .evo-label { color: var(--green); }
         .evo-box img { width: 200px; transition: transform 0.5s var(--ease); }
         .evo-box:hover img { transform: scale(1.06); }
-        .evo-box.new img { filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6)); }
+        .evo-box.new img { filter: drop-shadow(0 16px 32px rgba(0,0,0,0.12)); }
 
         .evo-divider {
             display: flex;
@@ -324,19 +324,19 @@
         }
 
         /* ── FORMULA ── */
-        .formula { background: var(--ink); color: var(--white); }
+        .formula { background: #1a3d28; color: var(--white); }
         .formula-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 80px; }
         .formula-header .section-heading { color: var(--white); }
-        .formula-header p { max-width: 300px; font-size: 0.9rem; color: rgba(255,255,255,0.4); line-height: 1.75; }
+        .formula-header p { max-width: 300px; font-size: 0.9rem; color: rgba(255,255,255,0.5); line-height: 1.75; }
 
         .formula-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            border: 1px solid rgba(255,255,255,0.07);
+            border: 1px solid rgba(255,255,255,0.12);
         }
         .formula-item {
             padding: 56px 40px;
-            border-right: 1px solid rgba(255,255,255,0.07);
+            border-right: 1px solid rgba(255,255,255,0.12);
             position: relative;
             overflow: hidden;
             transition: background 0.4s;
@@ -525,7 +525,7 @@
 
             .formula-header { flex-direction: column; gap: 24px; }
             .formula-grid { grid-template-columns: 1fr; }
-            .formula-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.07); }
+            .formula-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.12); }
             .formula-item:last-child { border-bottom: none; }
 
             .status-grid { grid-template-columns: 1fr; }
@@ -540,7 +540,7 @@
 <body>
 
     <nav id="nav">
-        <a href="/" class="nav-logo">mult<span>vit</span></a>
+        <a href="#" class="nav-logo"><img src="images/logo.png" alt="Multvit" style="height:86px;width:auto;display:block;"></a>
         <ul class="nav-links">
             <li><a href="#evolucao">Evolução</a></li>
             <li><a href="#formula">Fórmula</a></li>
@@ -573,7 +573,7 @@
             <img src="images/1.png" alt="Novo Fiber Se7e Multvit" class="hero-product">
             <div class="hero-tag">
                 <span>Nova versão</span>
-                <strong>2025</strong>
+                <strong>2026</strong>
             </div>
         </div>
     </section>
@@ -783,9 +783,9 @@
     <footer>
         <div class="wrap">
             <div class="footer-inner">
-                <div class="footer-logo">MULTVIT</div>
+                <div class="footer-logo"><img src="images/logo.png" alt="Multvit" style="height:86px;width:auto;display:block;opacity:0.6;"></div>
                 <div class="footer-copy">
-                    <p>Fiber Se7e · Nova Identidade Visual 2025</p>
+                    <p>Fiber Se7e · Nova Identidade Visual 2026</p>
                     <p>&copy; 2026 Multvit. Todos os direitos reservados.</p>
                 </div>
             </div>
